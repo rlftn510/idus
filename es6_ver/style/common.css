@@ -1,0 +1,23 @@
+* {box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box;}
+*::after, *::before{box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box;}
+html, body{margin:0;padding:0;width: 100%;height: 100%}
+html {font-size: 16px}
+article,aside,audio,blockquote,body,canvas,code,dd,details,div,dl,dt,fieldset,
+figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,input,legend,li,mark,menu,nav,ol,p,pre,section,summary,td,textarea,th,time,ul,video,a{margin:0;padding:0;
+  }
+strong {font-weight:600; color:#111;}
+a{line-height: 1;text-decoration: none;color: #333}
+li,p{line-height: 1.5;color: #333}
+img{vertical-align:middle;border:0}
+a,button,input,select,textarea{margin:0;vertical-align:middle}
+table{border-spacing:0;border-collapse:collapse}
+fieldset{border:0}
+legend{color:#000}
+address,caption,cite,code,dfn,em,th,var{font-weight:400;font-style:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;list-style: none;  line-height:1;color: #333}
+
+.clearfix:after {content:""; display:block; clear:both;}
+.blind{width: 0;height: 0;opacity: 0;line-height: 0;font-size: 0}
+/* .text_over_hid{overflow: hidden; text-overflow: ellipsis;word-break: break-all;white-space: nowrap;display: block} */
